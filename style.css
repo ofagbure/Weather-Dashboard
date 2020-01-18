@@ -4,3 +4,11 @@
 #forecast {
     border: 0px;
 }
+p {
+    font-size: 10px;
+}
+
+.forecast-card {
+    margin: 0px;
+    padding: 0px;
+}
