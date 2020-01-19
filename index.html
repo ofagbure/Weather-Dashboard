@@ -11,14 +11,15 @@
     </link>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
     <title>Weather Dashboard</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-dark">
-        <div class="navbar-brand mb-0 h1 text-light text-center">Weather Dashboard</div>
+
+    <nav class="navbar navbar-dark bg-dark text-center">
+        <span class="navbar-brand h1">Weather Dashboard</span>
     </nav>
+
     <div class="container">
         <div class="row">
             <div class="col-4">
@@ -26,7 +27,7 @@
                     <div class="form-group">
                         <label for="citySearch">Search For a City: </label>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" id = "userCity">
+                            <input type="text" class="form-control" id="userCity">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button"
                                     id="button-addon2 searchButton">Search</button>
@@ -34,11 +35,18 @@
                         </div>
                 </form>
                 <div class="list-group">
-                    <button type="button" class="list-group-item list-group-item-action" id="thisCity">Atlanta, GA</button>
-                    <button type="button" class="list-group-item list-group-item-action" id="thisCity">New York, NY</button>
-                    <button type="button" class="list-group-item list-group-item-action" id="thisCity">Lagos, NG</button>
-                    <button type="button" class="list-group-item list-group-item-action" id="thisCity">London, UK</button>
-                    <button type="button" class="list-group-item list-group-item-action" id="thisCity">Nicosia, CY</button>
+                    <button type="button" class="list-group-item list-group-item-action thisCity"
+                        id="Atlanta, US">Atlanta, US</button>
+                    <button type="button" class="list-group-item list-group-item-action thisCity" id="New York, US">New
+                        York, US</button>
+                    <button type="button" class="list-group-item list-group-item-action thisCity" id="Lagos, NG">Lagos,
+                        NG</button>
+                    <button type="button" class="list-group-item list-group-item-action thisCity"
+                        id="London, UK">London,
+                        UK</button>
+                    <button type="button" class="list-group-item list-group-item-action thisCity"
+                        id="Nicosia, CY">Nicosia,
+                        CY</button>
                 </div>
             </div>
         </div>
@@ -97,7 +105,8 @@
         </div>
     </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

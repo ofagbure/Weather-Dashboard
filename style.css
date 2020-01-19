@@ -1,6 +1,4 @@
-.col-4 {
-    background-color: rgb(233, 233, 233);
-}
+
 #forecast {
     border: 0px;
 }
@@ -11,4 +9,29 @@ p {
 .forecast-card {
     margin: 0px;
     padding: 0px;
+}
+body {
+    background-image: url(./images/new-history-forecast-bulk.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.form-group {
+ opacity: 0.8;
+ background-color: lightblue;
+ padding: 10px;
+}
+
+#currentCity {
+ opacity: 0.8;
+  background-color: lightblue;
+}
+
+#forecast.card-body {
+   opacity: 0.8;
+   background-color:lightblue;
+}
+
+.navbar {
+    text-align: center;
 }
