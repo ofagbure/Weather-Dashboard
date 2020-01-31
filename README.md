@@ -1,5 +1,5 @@
 # Weather-Dashboard
-As a frequent traveler, I wanted to create a weather dashboard for a few of my most frequented/ loved cities. This application will also let me search for cities I plan to visit.
+As a frequent traveler, I wanted to create a weather dashboard for a few of my most frequented/ loved cities. This application will also let me search for cities I plan to visit. 
 
 ## Table of Contents 
 
@@ -10,7 +10,7 @@ As a frequent traveler, I wanted to create a weather dashboard for a few of my m
 
 ## Description 
 
-This is a basic weather dashboard app that shows weather conditions for a given city. It shows the current weather as well as a 5 day forecast.
+This is a basic weather dashboard app that shows weather conditions for a given city. It shows the current weather as well as a 5 day forecast. Click [here](https://ofagbure.github.io/Weather-Dashboard/) to see the deployed site!
 
 ## Functionality
 
